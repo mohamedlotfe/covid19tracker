@@ -1,17 +1,21 @@
 # Covid 19 Tracking App
 
-write a full stack app (two apps)
-- backend using firebase functions alongside with realtime DB
+A  full stack app (two apps)
+- backend using firebase functions with realtime DB
 - frontend can be using react JS
 ## Main Page:
 
 ###  Countries card && Global cases statistics card
 1. Shows the top 5 countries in Covid-19 cases.
 2. Shows the global cases data (global deaths, recoveries and active cases).
-
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://github.com/mohamedlotfe/covid19tracker/blob/main/client-app/public/homepage.png"  alt="Nest Logo" /></a>
+</p>
 ###  Countries List Page
 1. This Page will present the full list of countries, each country item must also present the full pandemic cases analytics for that country.
-
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://github.com/mohamedlotfe/covid19tracker/blob/main/client-app/public/Pasted%20one.png"  alt="Nest Logo" /></a>
+</p>
 ## Available Scripts
 
 In the project directory, you can run:
