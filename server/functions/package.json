@@ -9,7 +9,8 @@
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "emulator": "firebase init emulators"
+    "emulator": "firebase init emulators",
+    "tetco-app": "firebase use tetco-app"
   },
   "engines": {
     "node": "18"

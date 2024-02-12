@@ -1,0 +1,112 @@
+[debug] [2024-02-12T09:02:49.730Z] ----------------------------------------------------------------------
+[debug] [2024-02-12T09:02:49.733Z] Command:       /Users/molotfy/.nvm/versions/node/v18.18.2/bin/node /Users/molotfy/.nvm/versions/node/v18.18.2/bin/firebase emulators:start --inspect-functions --only functions
+[debug] [2024-02-12T09:02:49.733Z] CLI Version:   13.2.1
+[debug] [2024-02-12T09:02:49.734Z] Platform:      darwin
+[debug] [2024-02-12T09:02:49.734Z] Node Version:  v18.18.2
+[debug] [2024-02-12T09:02:49.736Z] Time:          Mon Feb 12 2024 11:02:49 GMT+0200 (Eastern European Standard Time)
+[debug] [2024-02-12T09:02:49.736Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-12T09:02:49.892Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-12T09:02:49.893Z] > authorizing via signed-in user (mhmdlotfy9@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-02-12T09:02:50.478Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-02-12T09:02:50.478Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-02-12T09:02:50.490Z] [hub] writing locator at /var/folders/h2/mlqbyss5051cmmq5v39jyv_m0000gn/T/hub-tetco-app.json
+[debug] [2024-02-12T09:02:50.882Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-02-12T09:02:50.882Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-02-12T09:02:50.882Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: You are running the Functions emulator in debug mode (port=9229). This means that functions will execute in sequence rather than in parallel. {"metadata":{"emulator":{"name":"functions"},"message":"You are running the Functions emulator in debug mode (port=9229). This means that functions will execute in sequence rather than in parallel."}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2024-02-12T09:02:50.887Z] defaultcredentials: writing to file /Users/molotfy/.config/firebase/mhmdlotfy9_gmail_com_application_default_credentials.json
+[debug] [2024-02-12T09:02:50.902Z] Setting GAC to /Users/molotfy/.config/firebase/mhmdlotfy9_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/molotfy/.config/firebase/mhmdlotfy9_gmail_com_application_default_credentials.json"}}
+[debug] [2024-02-12T09:02:50.904Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tetco-app/adminSdkConfig [none]
+[debug] [2024-02-12T09:02:51.382Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tetco-app/adminSdkConfig 200
+[debug] [2024-02-12T09:02:51.383Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tetco-app/adminSdkConfig {"projectId":"tetco-app","databaseURL":"https://tetco-app-default-rtdb.firebaseio.com","storageBucket":"tetco-app.appspot.com"}
+[debug] [2024-02-12T09:02:51.408Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-02-12T09:02:51.408Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-02-12T09:02:51.408Z] Starting Emulator UI with command {"binary":"node","args":["/Users/molotfy/.cache/firebase/emulators/ui-v1.11.7/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/molotfy/.cache/firebase/emulators/ui-v1.11.7/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-02-12T09:02:51.589Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-02-12T09:02:51.589Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "/Users/molotfy/personal/code-v2/covid19-app/server/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/molotfy/personal/code-v2/covid19-app/server/functions\" for Cloud Functions..."}}
+[debug] [2024-02-12T09:02:51.676Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2024-02-12T09:02:53.097Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "dev": "npm run build && firebase emulators:start --inspect-functions --only functions",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "emulator": "firebase init emulators",
+    "tetco-app": "firebase use tetco-app"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "apify-client": "^2.8.4",
+    "axios": "^1.6.7",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^4.9.0"
+  },
+  "private": true
+}
+[debug] [2024-02-12T09:02:53.097Z] Building nodejs source
+[debug] [2024-02-12T09:02:53.098Z] Failed to find version of module node: reached end of search path /Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2024-02-12T09:02:53.101Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-02-12T09:02:53.109Z] Found firebase-functions binary at '/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8928
+
+[debug] [2024-02-12T09:02:54.043Z] Got response from /__/functions.yaml {"endpoints":{"initCovidData":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"initCovidData"},"getTopCountriesData":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"getTopCountriesData"},"getCountriesListData":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"getCountriesListData"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] ✔  functions: Loaded functions definitions from source: initCovidData, getTopCountriesData, getCountriesListData. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: initCovidData, getTopCountriesData, getCountriesListData."}}
+[info] ✔  functions[us-central1-initCovidData]: http function initialized (http://127.0.0.1:5001/tetco-app/us-central1/initCovidData). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/tetco-app/us-central1/initCovidData)."}}
+[info] ✔  functions[us-central1-getTopCountriesData]: http function initialized (http://127.0.0.1:5001/tetco-app/us-central1/getTopCountriesData). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/tetco-app/us-central1/getTopCountriesData)."}}
+[info] ✔  functions[us-central1-getCountriesListData]: http function initialized (http://127.0.0.1:5001/tetco-app/us-central1/getCountriesListData). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/tetco-app/us-central1/getCountriesListData)."}}
+[debug] [2024-02-12T09:02:54.068Z] [worker-pool] addWorker(~shared~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~shared~)"}}
+[debug] [2024-02-12T09:02:54.069Z] [worker-pool] Adding worker with key ~free~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~free~, total=1"}}
+[info] >  Debugger listening on ws://127.0.0.1:9229/e9293f7b-a850-4299-b0f9-a2ce4c23ea5b {"user":"Debugger listening on ws://127.0.0.1:9229/e9293f7b-a850-4299-b0f9-a2ce4c23ea5b","metadata":{"emulator":{"name":"functions"},"message":"\u001b[90m> \u001b[39m Debugger listening on ws://127.0.0.1:9229/e9293f7b-a850-4299-b0f9-a2ce4c23ea5b"}}
+[info] >  For help, see: https://nodejs.org/en/docs/inspector {"user":"For help, see: https://nodejs.org/en/docs/inspector","metadata":{"emulator":{"name":"functions"},"message":"\u001b[90m> \u001b[39m For help, see: https://nodejs.org/en/docs/inspector"}}
+[debug] [2024-02-12T09:02:55.238Z] [runtime-status] [13964] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-02-12T09:02:55.239Z] [runtime-status] [13964] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-02-12T09:02:55.240Z] [runtime-status] [13964] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-02-12T09:02:55.241Z] [runtime-status] [13964] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-02-12T09:02:55.527Z] [runtime-status] [13964] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-02-12T09:02:55.530Z] [runtime-status] [13964] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2024-02-12T09:02:55.535Z] [runtime-status] [13964] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-02-12T09:02:55.548Z] [runtime-status] [13964] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2024-02-12T09:02:55.554Z] [runtime-status] [13964] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2024-02-12T09:02:55.555Z] [runtime-status] [13964] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"/Users/molotfy/personal/code-v2/covid19-app/server/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2024-02-12T09:02:55.863Z] [runtime-status] [13964] initializeApp(DEFAULT) {"apiKey":"AIzaSyCDAQjESrSlgiLQibGoMGTNyYJjBivQjKI","authDomain":"tetco-app.firebaseapp.com","projectId":"tetco-app","storageBucket":"tetco-app.appspot.com","messagingSenderId":"189510480297","appId":"1:189510480297:web:9194a341c29aa9ee0c94b8","measurementId":"G-3F7PG5Y7JX","databaseURL":"https://tetco-app-default-rtdb.firebaseio.com"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] initializeApp(DEFAULT) {\"apiKey\":\"AIzaSyCDAQjESrSlgiLQibGoMGTNyYJjBivQjKI\",\"authDomain\":\"tetco-app.firebaseapp.com\",\"projectId\":\"tetco-app\",\"storageBucket\":\"tetco-app.appspot.com\",\"messagingSenderId\":\"189510480297\",\"appId\":\"1:189510480297:web:9194a341c29aa9ee0c94b8\",\"measurementId\":\"G-3F7PG5Y7JX\",\"databaseURL\":\"https://tetco-app-default-rtdb.firebaseio.com\"}"}}
+[warn] ⚠  functions: The Realtime Database emulator is not running, so calls to Realtime Database will affect production. {"metadata":{"emulator":{"name":"functions"},"message":"The Realtime Database emulator is not running, so calls to Realtime Database will affect production."}}
+[debug] [2024-02-12T09:02:55.935Z] [runtime-status] [13964] Functions runtime initialized. {"cwd":"/Users/molotfy/personal/code-v2/covid19-app/server/functions","node_version":"18.18.2"} {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] Functions runtime initialized. {\"cwd\":\"/Users/molotfy/personal/code-v2/covid19-app/server/functions\",\"node_version\":\"18.18.2\"}"}}
+[debug] [2024-02-12T09:02:55.941Z] [runtime-status] [13964] Listening to port: /var/folders/h2/mlqbyss5051cmmq5v39jyv_m0000gn/T/fire_emu_d9bea4cf68da78fb.sock {"metadata":{"emulator":{"name":"functions"},"message":"[runtime-status] [13964] Listening to port: /var/folders/h2/mlqbyss5051cmmq5v39jyv_m0000gn/T/fire_emu_d9bea4cf68da78fb.sock"}}
+[debug] [2024-02-12T09:02:56.044Z] [worker-~free~-34f7612f-144c-4582-879e-94da9c899eb8]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~free~-34f7612f-144c-4582-879e-94da9c899eb8]: IDLE"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

@@ -6,16 +6,20 @@ write a full stack app (two apps)
 ## Main Page:
 
 ###  Countries card && Global cases statistics card
+
 1. Shows the top 5 countries in Covid-19 cases.
 2. Shows the global cases data (global deaths, recoveries and active cases).
 
 ###  Countries List Page
+
 1. This Page will present the full list of countries, each country item must also present the full pandemic cases analytics for that country.
 
 ## Available Scripts
 
 In the project directory, you can run:
-1. cd server
+1. cd server/functions
+### `npm install -g firebase-tools`
+### `npm run tetco-app`
 ### `npm run dev`
 Runs the app in the development mode and show logs .\
 Open [ http://127.0.0.1:4000/logs]( http://127.0.0.1:4000/logs) to view it in the browser.
